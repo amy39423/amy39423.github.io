@@ -1,0 +1,324 @@
+/* Include padding in total width of elements */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    width: 100%;
+    background-image: url(images/Sheet%20Music%20Background6.png);
+    background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4A1942;
+}
+
+li a {
+    font-family: 'EB Garamond', serif;
+    display: block;
+    color: #DDD8C4;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+}
+
+li a:hover:not(.active) {
+  background-color: #893168;
+}
+
+.active {
+  background-color: #2E1C2B;
+}
+
+h1 {
+    padding: 5px, 10px;
+    font-family: 'EB Garamond', serif;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h2 {
+    padding: 5px, 5px;
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+p {
+    padding: 5px, 10px;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.firstp {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nameh1 {
+    padding: 5px, 10px;
+    font-family: 'EB Garamond', serif;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.header {
+    color: white;
+    background-color: #4A1942;
+}
+
+.column33 {
+  float: left;
+  width: 33.3%;
+  padding: 30px 40px 20px 100px;
+}
+
+.column66 {
+  float: right;
+  width: 66.6%;
+  padding: 30px 100px 20px 40px;
+}
+
+.box66right {
+    margin: 0;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #DDD8C4;
+    border-radius: 10px;
+}
+
+/* copied code from W3Schools */
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* end of copied code */
+
+.homeheaders {
+    text-align: center;
+    padding: 5px, 10px;
+    font-family: 'EB Garamond', serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #2E1C2B;
+}
+
+/* remove link underline*/
+.homelinks {
+    text-decoration: none;
+}
+
+.logoimg {
+    display: block;
+    height: 60px;
+    padding: 10px 30px;
+    align-content: center;
+}
+
+.navlogo {
+    float: left;
+    display: block;
+    padding: 0px 0px;
+    text-decoration: none;
+    width: 10%;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #4A1942;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+/* email link */
+.email {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navtext {
+    text-transform: uppercase;
+}
+
+.columntable { 
+  float: left;
+  width: 33.3%;
+  padding: 30px 40px 20px 100px;
+}
+
+#timeline th, #timeline td{
+    color: black;
+    padding: 10px 0px;
+    width: 300px;
+}
+
+#timeline th {
+    background-color: #2E1C2B;
+    color: #DDD8C4;
+    padding: 10px;
+}
+
+#timeline .age {
+    background-color: #2E1C2B;
+    color: #DDD8C4;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#timeline td {
+    text-align: center;
+}
+
+.tableYesPi {
+    background-color: #893168;
+}
+
+.tableYesC {
+    background-color: #00916E;
+}
+
+.tableYesPr {
+    background-color: #317289;
+}
+.timelinetable {
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+}
+
+.menu {
+    width: 66%;
+    float: right;
+}
+
+.homeparagraphs {
+    padding: 0px 40px;
+    color: #2E1C2B;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.amyuwcbcpic {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.picandcaption33 {
+    float: left;
+    width: 33.3%;
+    padding: 30px 60px;
+}
+
+.picandcaption66 {
+    float: left;
+    width: 66%;
+    padding: 30px 60px;
+}
+
+.picandcaption {
+    width: 100%;
+}
+
+.picandcaption50 {
+    float: left;
+    width: 50%;
+    padding: 30px 60px;
+}
+
+.prodvidcenter {
+    padding: 30px;
+}
+
+.paracenter {
+    text-align: center;
+    padding: 0px 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* styling for youtube videos */
+iframe {
+    display: block;
+    margin: auto;
+}
+
+#timeline {
+    width: 100%;
+}
+
+.pageheader {
+    text-align: center;
+}
+
+.ytlink:link {
+}
+
+.ytlink:visited {
+    color: #2E1C2B;
+}
+
+.ytlink:hover {
+    color: #893168;
+}
+
+.ytlink:hover {
+    color: #893168;
+}
+
+label {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(74, 25, 66, 0.3);
+    padding: 5px 10px;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+textarea::placeholder {
+    color: black;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(74, 25, 66, 0.3);
+    padding: 5px 10px;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input::placeholder {
+    color: black;
+}
